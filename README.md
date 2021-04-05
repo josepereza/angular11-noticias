@@ -1,5 +1,8 @@
 # Noticias
+## Angular 11 y Bootstrap 5 - 
+### En La cabezera con el sistema de busqueda sigo el ejemplo de :https://getbootstrap.com/docs/5.0/examples/album/ 
 
+![images](noticias.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
 ## Development server
