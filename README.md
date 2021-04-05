@@ -1,6 +1,36 @@
 # Noticias
 ## Angular 11 y Bootstrap 5 - 
-### En La cabezera con el sistema de busqueda sigo el ejemplo de :https://getbootstrap.com/docs/5.0/examples/album/ 
+### En La cabezera con el sistema de busqueda sigo el ejemplo de  https://getbootstrap.com/docs/5.0/examples/album/ 
+## El thema de bootstrap 
+ El tema lo hago con bootstrap5 modificando lo siguiente:
+* navbar.components.css 
+```
+*{
+    background-color: teal !important;
+    color:whitesmoke;
+}
+```
+* formulario.components.css 
+```
+select{
+        color:whitesmoke;
+}
+```
+* styles.css 
+```
+* {
+        background-color: black !important;
+
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-primary{
+    background-color: rgb(23, 61, 133) !important;
+}
+```
+
+ 
 
 ![images](noticias.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
