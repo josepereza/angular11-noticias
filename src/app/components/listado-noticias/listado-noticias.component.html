@@ -1,0 +1,22 @@
+
+
+<div  class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+
+    
+    <div  *ngFor="let item of noticias" class="col">
+
+        <a [href]="item.url" target="_blank" >
+         <div class="card">
+        <img [src]= "item.urlToImage" class="card-img-top" alt="...">
+        <div class="card-body">
+            <span class="badge bg-primary mb-1">{{item.source.name}}</span>
+          <h5 class="card-title ">{{item.title}}</h5>
+          <p class="fs-6 fw-light">{{item.description}}</p>
+        </div>
+      </div>
+        
+        </a>
+     
+    </div>
+    
+  </div>

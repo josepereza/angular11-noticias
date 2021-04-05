@@ -1,0 +1,26 @@
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h2 class="fw-light">Filtra por Pais y Categoria</h2>
+       <div class="row">
+           <div class="col-12">
+               <form (ngSubmit)="buscarNoticia()">  
+
+                <select name="categoria" [(ngModel)]="categoriaSeleccionada"  class="form-select mw-100 form-control-lg" aria-label="Default select example">
+                    <option [value]="item.value" *ngFor="let item of categorias">{{item.nombre}}</option>
+                   
+                  </select>
+
+                  <select name="pais" [(ngModel)]="paisSeleccionado" class="form-select  form-control-lg" aria-label="Default select example">
+                    <option [value]="item.value" *ngFor="let item of paises">{{item.nombre}}</option>
+                    
+                  </select>
+                  <button type="submit" class="btn btn-primary w-100 btn-lg my-3">Buscar</button>
+
+               </form>
+
+           </div>
+       </div>
+      </div>
+    </div>
+  </section>
